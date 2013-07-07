@@ -1,0 +1,22 @@
+<%-	include header.ejs	%>
+<div>
+	<div>
+	</div>
+	<hr />
+	<form onsubmit="return false;">
+		<textarea name="prog" placeholder="Enter your C-code here..." rows="20" class="field span12" id="codeArea" spellcheck="false"><%	
+			if(typeof code!='undefined'){
+				%><%=code%><%
+			}
+		%></textarea>
+		<textarea name="input" placeholder="Enter your Inputs here..." rows="5" class="field span12" id="inputArea" spellcheck="false"><%
+			if(typeof input!='undefined'){
+				%><%=input%><%
+			}
+		%></textarea>
+		<br /><button type="submit" name="submit" class="btn btn-primary" id="runProgram">Run</button>
+	</form>
+	<div id="result">
+	</div>
+</div>
+<%-	include footer.ejs	%>

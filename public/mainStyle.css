@@ -1,0 +1,25 @@
+#error{
+	color: #900;
+}
+#output{
+	color:	#090;
+}
+#codeArea{
+	font-family:	monospace;
+}
+#result{
+	background-color:	#EEE;
+	padding-left:	5px;
+}
+#invalidInfo{
+	margin-left:	auto;
+	margin-right:	auto;
+	font-size:	60px;
+	text-align:	center;
+	line-height:	1.5em;
+	color:	#900;
+	padding-top: 230px;
+}
+#abuse{
+	font-weight:	bold;
+}
